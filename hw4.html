@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>"hw4"</title>
+        <style>
+            .cat{
+                width:80px;
+                height:80px;
+                object-fit:cover
+            }
+            .name{
+                font-size:smaller;
+                margin-bottom:5px
+            }
+            .button{
+                background-color:darkblue;
+                border:none;
+                color:white;
+                width: 90px;
+                height:30px
+            }
+            .profile-card{
+            display:grid;
+            grid-template-columns: 100px 100px 100px;
+            column-gap:40px;
+            line-height:15px;
+    
+            }
+            .cat2{
+                width:20px;
+                height:20px;
+                object-fit: cover;
+                border-radius:10px
+            }
+            .m-info{
+                font-size:small;
+                align-self: center;
+            }
+            .mutual-friends{
+                display:grid;
+                grid-template-columns: 25px 100px;
+                
+            }
+            .box{
+                width:115px;
+                background-color:rgb(194, 191, 191);
+                border-width:5px;
+                border-color:red
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="profile-card">
+            <div class="box">
+                <div class="photo">
+                    <img class='cat'src="Cat_November_2010-1a.jpg" >
+                </div>
+                <div class="info">
+                    <h2 class="name">
+                            Oliver
+                    </h2>
+                    <div class="mutual-friends"> 
+                        <div class="m-photo">
+                            <img class="cat2" src="FELV-cat.jpg">
+                        </div>
+                        <div class="m-info">
+                            5 Mutual Friends
+
+                        </div>
+                    </div>
+                        
+                    <button class="button">
+                            Add Friend
+                    </button>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="photo">
+                    <img class='cat'src="images (1).jpg" >
+                </div>
+                <div class="info">
+                    <h2 class="name">
+                            Mimi
+                    </h2>
+                    <div class="mutual-friends"> 
+                        <div class="m-photo">
+                            <img class="cat2" src='FELV-cat.jpg'>
+                        </div>
+                        <div class="m-info">
+                            7 Mutual Friends
+
+                        </div>
+                    </div>
+                        
+                    <button class="button">
+                            Add Friend
+                    </button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="photo">
+                    <img class='cat'src="images.jpg" >
+                </div>
+                <div class="info">
+                    <h2 class="name">
+                            Rex
+                    </h2>
+                    <div class="mutual-friends"> 
+                        <div class="m-photo">
+                            <img class="cat2" src='FELV-cat.jpg'>
+                        </div>
+                        <div class="m-info">
+                            1 Mutual Friends
+
+                        </div>
+                    </div>
+                        
+                    <button class="button">
+                            Add Friend
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
