@@ -26,15 +26,20 @@
     margin-left:70px;
     margin-right: 30px;
     max-width:300px;
-    height:70px
+    height:70px;
+    display:flex;
+    align-items: center;
 }
+.search-bar{
+    flex:1}
+
 .search-button{
     height:40px;
-    width:10px
+    width:40x
 }
 .voice-search-button{
-    height:10px;
-    width:5px;
+    height:40x;
+    width:40px;
 }
 .right-section{
     background-color:lightblue;
